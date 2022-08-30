@@ -15,5 +15,6 @@ namespace ConsoleConfigApp
 
         public DateTime DateTime { get; set; }
 
+        public string Hometown { get; set; }
     }
 }
