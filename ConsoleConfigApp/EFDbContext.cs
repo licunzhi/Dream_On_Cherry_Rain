@@ -10,6 +10,7 @@ namespace ConsoleConfigApp
     internal class EFDbContext:DbContext
     {
         public DbSet<Person> person { get; set; }
+        public DbSet<Cat> Cat { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
