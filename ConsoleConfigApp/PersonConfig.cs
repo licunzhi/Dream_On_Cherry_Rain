@@ -12,7 +12,7 @@ namespace ConsoleConfigApp
     {
         public void Configure(EntityTypeBuilder<Person> builder)
         {
-            builder.ToTable("Person");
+            builder.ToTable("Person").HasKey(x => x.Id);
         }
     }
 }
