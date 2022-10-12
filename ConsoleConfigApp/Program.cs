@@ -2,7 +2,19 @@
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Lemon Tree");
+            
+        }
+
+        /// <summary>
+        /// code for how to init tables and examples
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
+        public static async Task Main1(string[] args)
         {
             Console.WriteLine("Apple Tree");
             using EFDbContext eFDbContext = new EFDbContext();
