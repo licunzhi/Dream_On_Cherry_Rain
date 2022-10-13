@@ -4,7 +4,12 @@ using FileSystemConsoleApp;
 System.Collections.Specialized.StringCollection log = new System.Collections.Specialized.StringCollection();
 Console.WriteLine("Hello, World!");
 
+// 文件系统信息获取
+FileInfomation.TestFileInfo();
 
+
+// 借助堆栈对象
+/*StackBasedIteration.TraverseTree("C:\\Users\\elixcun\\database");*/
 
 
 // 适应性测试获取指定文件夹下面的文件内容
