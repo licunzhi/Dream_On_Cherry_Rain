@@ -4,8 +4,11 @@ using FileSystemConsoleApp;
 System.Collections.Specialized.StringCollection log = new System.Collections.Specialized.StringCollection();
 Console.WriteLine("Hello, World!");
 
+// wirte and read operation
+FileOperation.WirteReadFile();
+
 // 文件系统信息获取
-FileInfomation.TestFileInfo();
+//FileInfomation.TestFileInfo();
 
 
 // 借助堆栈对象
