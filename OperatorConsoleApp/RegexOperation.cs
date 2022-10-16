@@ -18,6 +18,11 @@ namespace OperatorConsoleApp
 			{
 				Console.WriteLine(mc);
 			}
+
+			Regex reg = new Regex("\\s+");
+			string result = reg.Replace(str, "");
+			Console.WriteLine("After regex replace result : ");
+			Console.WriteLine(result);
         }
 	}
 }
