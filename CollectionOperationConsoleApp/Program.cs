@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Collections;
 using CollectionOperationConsoleApp;
 
 Console.WriteLine("Hello, World!");
@@ -54,3 +55,18 @@ foreach (Galaxy theGalaxy in theGalaxies)
 {
     Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears);
 }
+
+
+// System.Collections.ArrayList
+ArrayList arr_list = new ArrayList();
+Console.WriteLine("以 Num1,Num2,Num3,...,Numn 的形式输入一个字符串：");
+Console.ReadLine();
+string str = Console.ReadLine();
+string[] strArray = str.Split(',');
+foreach (string s in strArray)
+{
+    arr_list.Add(s);
+}
+
+Console.WriteLine("Capacity: {0} ", arr_list.Capacity);
+Console.WriteLine("Count: {0}", arr_list.Count);
