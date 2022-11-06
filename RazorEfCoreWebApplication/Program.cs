@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 // DbContetx
 builder.Services.AddDbContext<EFCoreContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("EFCoreConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("EFCoreConenction")));
 
 var app = builder.Build();
 

@@ -11,7 +11,7 @@
     "RazorEfCoreWebApplication": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7247;http://localhost:5206",
+      "applicationUrl": "http://localhost:14728",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
