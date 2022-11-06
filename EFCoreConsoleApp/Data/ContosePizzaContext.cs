@@ -15,7 +15,7 @@ namespace EFCoreConsoleApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Get the connection string pattern from : https://learn.microsoft.com/en-us/ef/core/
-            optionsBuilder.UseSqlServer("Server=localhost;Database=EFCore;User Id=sa;Password=Ericsson123");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=EFCore;User Id=sa;Password=xxxx123");
         }
     }
 }
