@@ -17,7 +17,7 @@ namespace ConsoleConfigApp
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=.;Uid=sa;Pwd=Ericsson123;Database=EFCore");
+            optionsBuilder.UseSqlServer("Server=.;Uid=sa;Pwd=xxx123;Database=EFCore");
             optionsBuilder.LogTo(Console.WriteLine);
         }
 
